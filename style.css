@@ -1,0 +1,36 @@
+body {
+    background-color: #1d1a2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 02px;
+}
+
+.container {
+    background-color: rgb(235, 34, 141);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    cursor: pointer;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
