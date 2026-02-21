@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.2;
+        color: #333;
+        }		
+		/*Starts:header--*/
+     .header {
+	  height:10vh;
+      display: flex;
+	  position:;
+	  position:fixed;
+      align-items: center;
+      justify-content: ;
+      padding: 10px 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	  width:100%;
+	  margin-top:-5vh;
+    }
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+	  margin-left:30vh;
+    }
+    .header-logo img {
+      height: 40px;
+    }
+    .header-menu {
+      display: flex;
+      align-items:left;
+	  margin-left:30vh;
+      gap: 30px;
+    }
+	.icons {
+		margin-left:110vh;
+		
+	}
+    .header-menu a {
+      text-decoration: none;
+      color: #333;
+      font-size: 17px;
+	  font-weight:500;
+      display: flex;
+      align-items: left;
+      gap: 10px;
+	  font-family: 'Roboto', sans-serif;
+    }
+    .header-menu a:hover {
+      color: #ff6600;
+    }
+    .header-menu .new {
+      color: #ff6600;
+      font-weight: bold;
+      font-size: 10px;
+      background-color: ;
+      border-radius: 3px;
+      padding: px px;
+    }  
+    .icon {
+      height:auto;
+    }
+		/*End:header*/
+		/*Starts:Hero/
+        .hero {
+            position: relative;
+            color: white;
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+        }
+        .hero video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .hero h1 {
+            font-size: 60px;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .hero p {
+            font-size: 22px;
+            margin: 20px 0;
+            max-width: 600px;
+            line-height: 1.5;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        }
+        .hero .search-bar {
+            display: flex;
+            width: 80%;
+            max-width: 600px;
+        }
+        .hero .search-bar input {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            font-size: 16px;
+        }
+        .hero .search-bar button {
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 0 5px 5px 0;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .hero .search-bar button:hover {
+            background-color: #e64a19;
+        }
+		/*End:hero*/
+		/*<!--Start: What is in Your Mind-->*/
+       #features {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #ffffff;
+			width:160vh;
+			margin-left:11%;
+			border:none;
+			border-bottom:solid 2px #f9f9f9;
+			height:20vh;	
+        }
+	.h2 {
+		margin-left:27vh;
+		margin-top:5vh;
+		font-family: 'Roboto', sans-serif;
+		font-weight:700;
+		color:#00000f;		
+		height:1vh;
+		font-weight:900;
+		font-family:verdana;
+	}
+        #features .feature {
+            width: 300px;
+        }
+        #features .feature img {
+            width: 122px;
+            margin-bottom: 23px;
+        }   
+		/*<!--End: What is in Your Mind-->*/
+		/*<!--Start: Popular Cusine -->*/
+		.head-popular h2{
+			font-size:3vh;
+			font-family:verdana, sens;
+			color:#00000f;
+			border-top:solid 2px #f9f9f9;
+			margin-top:5vh;
+		}
+        .popular {
+            padding: 40px 20px;
+            text-align: center;
+			align-items:center;
+			border:;
+			height:140vh;
+        }
+        .popular h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+			color:#00000f;
+			text-align:left;
+			font-weight:900;
+			font-family:verdana;
+        }
+		.head-popular h2{
+			font-size:3vh;
+			font-family:verdana, sens;
+			color:#00000f;
+			margin-left:25vh;
+		}
+        .popular .cards { 
+			align-items:center;
+			height:60vh;
+			background:;
+			width:200vh;
+			text-align:center;
+			margin-left:24vh;
+        }
+        .popular .card:hover {
+			transform: scale(.98);
+			transition: transform 0.3s ease, background-color 0.3s ease;
+		}
+		.popular .card {
+			float:left;
+            border:  #ddd;
+            border-radius: 10px;
+            width: 50vh;
+            height:60vh;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow:none;
+            overflow: ;
+            text-align: left;
+        }
+        .popular .card img {
+            width: 100%;
+            height: 270px;
+			border-radius:20px;
+        }
+        .popular .card h3 {
+            margin: 15px 0;
+            font-size: 20px;
+			color:#00000f;
+        }
+		.price{
+			color:#00000f;
+		}
+        .popular .card p {
+			text-align:left;
+            font-size: 16px;
+            color: #555;
+			line-height:5vh;
+			font-size: 1.3rem;
+			color: #555;
+			margin-top:-10px;
+        }
+		.cards2{
+			margin-top:-7vh;
+		}
+	/*End:Popular choices*/
+	/* Starts:indian all states famous items*/
+	.states-heading{
+		height:8vh;
+		margin-top:5vh;
+	}
+	.states-heading h2 {
+		font-size:3vh;
+		text-align:center;	
+		color:#00000f;
+		margin-left:25vh;
+		text-align:left;
+		margin-left:25vh;
+		font-weight:900;
+		font-family:verdana;
+	}
+	.Offers-price{
+		width:100%;
+		height:10vh;
+		border:;
+		text-align:center;
+		gap:2rem;
+		align-content:center;
+		margin-left:-15vh;
+	}
+	.Offers-price  li{
+		display:inline;
+		border:ridge 1px #aaa;
+		border-radius:2rem;
+		padding:7px 10px;
+		text-align:center;
+	}
+	select{
+		border:none;
+		
+	}
+	.dishes-items {
+		width: 75%;
+		margin: 6vh auto;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px;
+		border;
+	}
+	.dish-card {
+		background-color: #fff;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		box-shadow:none;
+		overflow: hidden;
+		transition: box-shadow 0.3s ease, transform 0.1s ease;
+		height:48vh;
+		width:37vh;		
+	}
+	.dish-card:hover {
+		transform: scale(.96);
+		box-shadow: 0 4px 15px rgba(255, 255, 0, 0.6), 
+					0 4px 15px rgba(255, 0, 0, 0.6), 
+					0 4px 15px rgba(0, 255, 0, 0.6);
+					none;
+		box-shadow: 0 4px 15px rgba(0, 255, 0, 0.6);
+		box-shadow:none;
+	}
+	.dish-img {
+		width: 100%;
+		height: 200px;
+		border-radius: 20px;
+		object-fit: cover;
+	}
+	.dish-content {
+		padding: 15px;
+	}
+	.dish-content h2 {
+		font-size: 1.5rem;
+		color: #333;
+		margin-bottom: 10px;
+		margin-top:px;
+	}
+	.dish-content ul {
+		list-style: none;
+		margin-bottom: 0px;
+		margin-top: -10px;
+	}
+	.dish-content ul li {
+		font-size: 1.3rem;
+		color: #555;
+		margin-bottom:px;
+	}
+	.price {
+		font-size: 1rem;
+		color: #000;
+		font-weight: bold;
+		margin-bottom: px;
+	}
+	.order-btn {
+		background-color: #007bff;
+		color: #fff;
+		border: none;
+		padding: 10px 15px;
+		font-size: 1rem;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: transform 0.3s ease, background-color 0.3s ease;
+		margin-top:1vh;
+	}
+	.order-btn:hover {
+		background-color: green;
+		transform: scale(0.98);
+	}
+	/* End:indian all states famous items*/
+	/*Start:Best-restro*/
+	#Best-restro{
+		text-align:center;
+	}
+	#Best-restro h2 {
+		margin-top:10vh;
+		color:#00000f;
+		margin-left:25vh;
+		text-align:left;
+		margin-left:25vh;
+	}
+	.cities {
+		display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			width:160vh;
+			border:;
+			margin-left:25vh;
+			margin-top:3vh;
+	}
+	.cities p{
+		text-align:center;
+		align-content:center;
+		border:1px ridge #ccc;
+		width:35vh;
+		height:7vh;
+		margin:1vh 1vh;
+		border-radius:20px;
+	}
+	/*End:Best-restro*/
+	/*Start:footer*/
+	#footer {
+		background:#eff2fb;
+		margin-top:10vh;
+	}
+	.footer{
+		border-top:1px solid #00000f;
+		width:140vh;
+		margin-left:35vh;
+		height:80vh;
+		text-align:center;
+		background-color::#f9f9f9
+	}
+	.footer h2{
+		padding:5vh;
+		height:20vh;	
+		font-size:2.6vh;
+		font-weight:600;
+		color:#00000f;
+	}
+	.img{
+		vertical-align: baseline;
+		height:7vh;
+		margin-top:vh;
+		margin-left:1vh;
+	}
+	.footer-items{
+		font-family:verdana;
+		float:left;
+		width:20%;
+		text-align:left
+	}
+	.footer-items h3{
+		font-weight:;
+		font-size:2.vh;
+		padding:.8vh;
+		height:vh;
+		color:#00000f;
+	}
+	.h3 {
+		margin-top:6vh;
+		width:100;
+	}
+	.footer-items p {
+		padding:.7vh;
+		font-size:2vh;
+	}
+	/*End:footer*/
+	
